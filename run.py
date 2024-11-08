@@ -27,8 +27,8 @@ PUSH_MSG = ''
 # 检查变量
 def check_env():
     invite_code_list = []
-    if not PUSHPLUS_TOKEN:
-        print('请按照文档设置PUSHPLUS_TOKEN环境变量')
+    # if not PUSHPLUS_TOKEN:
+    #     print('请按照文档设置PUSHPLUS_TOKEN环境变量')
     if not INVITE_CODE:
         print('请按照文档设置INVITE_CODE环境变量')
         raise Exception('请按照文档设置INVITE_CODE环境变量')
